@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Sindi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="label">Portfolio</p>
+        <h1>Halo, saya Sindi</h1>
+        <p class="subtitle">
+          Saya membuat pengalaman digital yang menarik, modern, dan ramah pengguna.
+        </p>
+        <a class="button" href="#kontak">Hubungi Saya</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="tentang" class="section container">
+        <h2>Tentang Saya</h2>
+        <p>
+          Saya adalah seorang pembelajar yang antusias di bidang desain dan pengembangan web.
+          Saya senang mengubah ide menjadi produk yang berguna.
+        </p>
+      </section>
+
+      <section id="proyek" class="section section-alt">
+        <div class="container">
+          <h2>Proyek Pilihan</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Landing Page UMKM</h3>
+              <p>Website promosi untuk bisnis lokal dengan tampilan bersih dan responsif.</p>
+            </article>
+            <article class="card">
+              <h3>Aplikasi Catatan Harian</h3>
+              <p>Aplikasi web sederhana untuk mencatat aktivitas dan target harian.</p>
+            </article>
+            <article class="card">
+              <h3>Desain UI Toko Online</h3>
+              <p>Perancangan antarmuka toko online fokus pada pengalaman pengguna.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="keahlian" class="section container">
+        <h2>Keahlian</h2>
+        <ul class="skills">
+          <li>HTML & CSS</li>
+          <li>JavaScript Dasar</li>
+          <li>Figma</li>
+          <li>Komunikasi & Kolaborasi</li>
+        </ul>
+      </section>
+
+      <section id="kontak" class="section section-alt">
+        <div class="container">
+          <h2>Kontak</h2>
+          <p>Email: <a href="mailto:sindi@email.com">sindi@email.com</a></p>
+          <p>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@sindi</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Sindi. Semua hak dilindungi.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
