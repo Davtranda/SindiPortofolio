@@ -1,6 +1,6 @@
-# SindiPortofolio
+# SindiPortfolio
 
-Website portofolio sederhana berbasis HTML dan CSS.
+Website portfolio sederhana berbasis HTML dan CSS.
 
 ## Menjalankan
 
